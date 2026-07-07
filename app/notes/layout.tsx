@@ -25,19 +25,25 @@ export default function Layout({ children }: LayoutProps<'/notes'>) {
           title: 'A0 - A1',
           description: 'Phase 1',
           url: '/notes',
-          icon: <Megaphone className="h-5 w-5 text-amber-500" />,
+          icon: <GitFork className="h-5 w-5 text-amber-500" />,
         },
         {
           title: 'A1 - A2',
           description: 'Phase 2',
-          url: '/notes',
-          icon: <Megaphone className="h-5 w-5 text-amber-500" />,
+          url: '/notes/phase-2-a1-a2',
+          icon: <BrickWall  className="h-5 w-5 text-fuchsia-500" />,
         },
         {
           title: 'A2 - B1',
           description: 'Phase 3',
-          url: '/notes',
-          icon: <Megaphone className="h-5 w-5 text-amber-500" />,
+          url: '/notes/phase-3-a2-b1',
+          icon: <Tally3  className="h-5 w-5 text-teal-500" />,
+        },
+        {
+          title: 'Pronunciation',
+          description: 'More Details',
+          url: '/notes/pronunciation',
+          icon: <Megaphone  className="h-5 w-5 text-red-500" />,
         },
       ]}
     >

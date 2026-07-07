@@ -14,7 +14,6 @@ import {
 import { notFound } from 'next/navigation';
 import { getMDXComponents } from '@/components/mdx';
 import PageActions from '@/components/app-ui/page-actions';
-import UrduFontLoader from '@/components/app-ui/urdu-font-loader';
 import type { Metadata } from 'next';
 import { createRelativeLink } from 'fumadocs-ui/mdx';
 
@@ -60,7 +59,6 @@ export default async function Page(props: PageProps<'/notes/[[...slug]]'>) {
           githubUrl={`https://github.com/${gitConfig.user}/${gitConfig.repo}/blob/${gitConfig.branch}/content/docs/${page.path}`}
         /> */}
       </div>
-      {needsUrduFontInContent && <UrduFontLoader />}
       <DocsBody>
         <MDX
           components={getMDXComponents({

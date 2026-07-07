@@ -27,14 +27,14 @@ export function baseOptions(): BaseLayoutProps {
         <>
           <div className="flex items-center gap-2 h-10 min-w-max select-none -mt-2 pt-1">
             <Image
-              src="/svgs/logo/daawah-logo.svg"
+              src="/svgs/logo/nedup-logo.svg"
               alt={appName}
-              width={112}
-              height={24}
+              width={128}
+              height={56}
               priority
               // Prevents the image component from buckling
-              className="w-28 h-10 object-contain shrink-0"
-              style={{ width: 'auto', height: 'auto' }}
+              className="w-32 h-14 object-contain shrink-0"
+              // style={{ width: 'auto', height: 'auto' }}
             />
           </div>
         </>
