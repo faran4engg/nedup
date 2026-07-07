@@ -22,3 +22,6 @@ https://archive.org/download/Linguisticmiracle.comTafsirNotes-Bayyinah.tvnoumanA
 
 PWA icons
 https://www.magicbell.com/tools/pwa-icon-generator
+
+Favicon
+https://favicon.io/svg-favicon/

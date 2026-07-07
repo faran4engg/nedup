@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: 'NedUp',
     short_name: 'NedUp',
     description:
-      'A practical companion for Muslims who want to share Islam with wisdom and compassion.',
+      'Level up your Dutch',
     start_url: '/',
     scope: '/',
     display: 'standalone',
