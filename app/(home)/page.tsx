@@ -959,11 +959,11 @@ export default function HomePage() {
             {/* Brand column */}
             <div className="flex flex-col gap-4">
               <Image
-                src="/svgs/logo/nedup-logo.svg"
+                src="/svgs/logo/dutchyy-logo.svg"
                 alt={appName}
-                width={128}
+                width={160}
                 height={56}
-                className="w-32 h-14 object-contain self-start"
+                className="w-40 h-14 object-contain self-start"
               />
               <p className="text-xs text-fd-muted-foreground leading-relaxed max-w-xs">
                 A free, structured Dutch course for English speakers — from your
