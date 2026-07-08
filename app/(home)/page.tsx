@@ -194,8 +194,8 @@ const Icon = {
    Data — routes verified against content/notes
 ───────────────────────────────────────────── */
 
-const A0 = '/notes/phase-1-a0-a1/a0';
-const A1 = '/notes/phase-1-a0-a1/a1';
+const A0 = '/notes/a0';
+const A1 = '/notes/a1';
 
 const TOPICS = [
   {
