@@ -273,7 +273,7 @@ const PHASES = [
       'Past tenses in depth, opinions, comparisons, subordinate clauses, and the mysterious little word er.',
     href: null,
     status: 'soon' as const,
-    statusLabel: 'Coming soon',
+    statusLabel: '',
   },
   {
     level: 'Phase 3',
@@ -283,7 +283,7 @@ const PHASES = [
       'Passives, hypotheticals, nuance, real news articles, and handling fast natural speech on your own.',
     href: null,
     status: 'soon' as const,
-    statusLabel: 'Coming soon',
+    statusLabel: '',
   },
 ];
 
@@ -354,9 +354,9 @@ const PHRASES = [
 ];
 
 const STATS = [
-  { value: '20+', label: 'Lessons Live' },
+  { value: '90+', label: 'Lessons' },
   { value: 'A0→B1', label: 'Full Path' },
-  { value: '100%', label: 'Free & Open' },
+  { value: '100%', label: 'Free' },
 ];
 
 const FOOTER_LINKS: {
